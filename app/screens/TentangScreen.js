@@ -20,3 +20,35 @@ export default function TentangScreen() {
     </View>
   );
 }
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: 'skyblue',
+      padding: 20,
+      justifyContent: 'center',
+    },
+    title: {
+      fontSize: 26,
+      fontWeight: 'bold',
+      color: '#111827',
+      textAlign: 'center',
+      marginBottom: 30,
+    },
+    card: {
+      backgroundColor: 'white',
+      borderRadius: 16,
+      padding: 20,
+      shadowColor: '#000',
+      shadowOpacity: 0.1,
+      shadowOffset: { width: 0, height: 4 },
+      shadowRadius: 10,
+      elevation: 5,
+    },
+    paragraph: {
+      fontSize: 16,
+      color: '#374151',
+      marginBottom: 15,
+      lineHeight: 24,
+      textAlign: 'center',
+    },
+  });
